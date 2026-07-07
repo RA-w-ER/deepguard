@@ -74,8 +74,8 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 pip install timm albumentations facenet-pytorch scikit-learn opencv-python tqdm
 ```
 
-Скачайте веса модели по ссылке выше, помести:
-- датасет → `data/processed/real/` и `data/processed/fake/`
+Скачайте веса модели по ссылке выше, поместите:
+- датасет → `data/processed/real/` и `data/processed/fake/` (необязательно)
 - веса → `checkpoints/best_resnet50.pth`
 
 ### Обучение модели

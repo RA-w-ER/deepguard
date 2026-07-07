@@ -55,7 +55,7 @@ deepfake-detector/
 **Google Drive:** [ссылка на checkpoint модели](https://drive.google.com/drive/folders/1jZ-EY_VNeIz2jpUR-2HcsqXVRKs0uxx7?usp=sharing)
 
 Папка содержит:
-- best_resnet50.pth` — обученная модель
+- best_resnet50.pth — обученная модель
 - Датасет слишком большой и не поммещается на диске
 
 ## Установка и запуск

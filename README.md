@@ -30,20 +30,23 @@
 deepfake-detector/
 ├── src/
 │   ├── data/
+│   │   ├── __init__.py
 │   │   ├── dataset.py          # Dataset и DataLoader, аугментации
-│   │   └── freq_utils.py       # FFT-признаки (экспериментальный подход)
+│   │   └── preprocess.py       # Предобработка исходных изображений
+│   ├── inference/
+│   │   └── predict.py          # Инференс на изображениях
 │   ├── models/
+│   │   ├── __init__.py
 │   │   └── detector.py         # Архитектура модели
 │   ├── training/
+│   │   ├── __init__.py
 │   │   └── train.py            # Скрипт обучения
-│   └── inference/
-│       └── predict.py          # Инференс на изображениях
-├── scripts/
-│   ├── prepare_kaggle_faces.py # Подготовка датасета 140k Real and Fake Faces
-│   ├── add_stylegan3.py        # Добавление StyleGAN3-изображений
-│   └── add_progan.py           # Добавление ProGAN-изображений
-├── docs/
-│   └── report.docx             # Подробный отчёт с графиками
+│   └── __init__.py
+|
+├── prepare_kaggle_faces.py # Подготовка датасета 140k Real and Fake Faces
+├── add_stylegan3.py        # Добавление StyleGAN3-изображений
+├── add_progan.py           # Добавление ProGAN-изображений
+├── report.docx                 # Подробный отчёт с графиками
 ├── phototest/                  # Примеры тестовых изображений
 └── README.md
 ```

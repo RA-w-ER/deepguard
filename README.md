@@ -20,7 +20,7 @@
 | RGB + FFT | EfficientNet-B4 | StyleGAN2 | 1.0000 | 33.3% |
 | RGB + SRM | EfficientNet-B4 | StyleGAN2 | 0.9999 | 33.3% |
 | CNNDetect | ResNet50 | StyleGAN2 | 0.9999 | 22.2% |
-| **CNNDetect + diverse** | **ResNet50** | **StyleGAN2+3** | **0.9999** | **66.7%** |
+| **CNNDetect + diverse** | **ResNet50** | **StyleGAN2+3** | **0.9999** | **80%** |
 
 Полный анализ, графики и методология — в [подробном отчёте](report.pdf).
 

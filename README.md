@@ -52,11 +52,11 @@ deepfake-detector/
 
 Из-за размера датасета (десятки тысяч изображений) и весов модели (сотни МБ) они не хранятся в этом репозитории. Всё доступно по ссылке на Google Диск:
 
-**Google Drive:** [ссылка на датасет и checkpoint модели](https://drive.google.com/drive/folders/1jZ-EY_VNeIz2jpUR-2HcsqXVRKs0uxx7?usp=sharing)
+**Google Drive:** [ссылка на checkpoint модели](https://drive.google.com/drive/folders/1jZ-EY_VNeIz2jpUR-2HcsqXVRKs0uxx7?usp=sharing)
 
 Папка содержит:
 - best_resnet50.pth` — обученная модель
-Датасет слишком большой и не поммещается на диске
+- Датасет слишком большой и не поммещается на диске
 
 ## Установка и запуск
 

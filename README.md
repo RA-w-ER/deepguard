@@ -6,8 +6,6 @@
 
 Большинство детекторов дипфейков отлично работают на изображениях того генератора, на котором обучались, но полностью теряют точность на изображениях из **другого** генератора того же класса (StyleGAN2 → StyleGAN3, ProGAN и т.д.). Это явление называется **domain shift** и является одной из ключевых нерешённых проблем в области deepfake-детекции.
 
-Проект последовательно исследует эту проблему и предлагает рабочее решение — подробности в разделе [Результаты](#результаты) и в файле [`docs/report.docx`](docs/report.docx).
-
 ## Архитектура
 
 - **Backbone:** ResNet50 (предобучен на ImageNet)
@@ -54,16 +52,16 @@ deepfake-detector/
 
 Из-за размера датасета (десятки тысяч изображений) и весов модели (сотни МБ) они не хранятся в этом репозитории. Всё доступно по ссылке на Google Диск:
 
-**Google Drive:** [ссылка на датасет и checkpoint модели](ВСТАВЬ_СЮДА_ССЫЛКУ)
+**Google Drive:** [ссылка на датасет и checkpoint модели](https://drive.google.com/drive/folders/1jZ-EY_VNeIz2jpUR-2HcsqXVRKs0uxx7?usp=sharing)
 
 Папка содержит:
-- `checkpoints/best_resnet50.pth` — обученная модель
-- `data/processed/` — подготовленный датасет (real/fake)
+- best_resnet50.pth` — обученная модель
+Датасет слишком большой и не поммещается на диске
 
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/твой-логин/deepfake-detector.git
+git clone https://github.com/RA-w-ER/deepfake-detector.git
 cd deepfake-detector
 
 python -m venv .venv

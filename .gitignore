@@ -1,0 +1,8 @@
+.venv/
+data/processed/
+data/raw/
+checkpoints/*.pth
+__pycache__/
+*.pyc
+phototest/*.jpg
+phototest/*.png
